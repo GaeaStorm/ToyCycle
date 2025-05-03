@@ -1,0 +1,68 @@
+:root {
+  --tan: #D4A373;
+  --cream: #FAEDCC;
+  --pale: #FEFAE0;
+  --mint: #E9EDC8;
+  --sage: #CCD5AE;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--pale);
+  color: #333;
+}
+
+header {
+  background-color: var(--tan);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+#hero {
+  background-color: var(--mint);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.btn {
+  background-color: var(--tan);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+.product-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: var(--cream);
+  padding: 1rem;
+  border: 1px solid var(--sage);
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--tan);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
