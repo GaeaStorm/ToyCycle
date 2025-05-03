@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
 :root {
   --tan: #D4A373;
   --cream: #FAEDCC;
@@ -8,7 +10,7 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Carlito', sans-serif;
   background-color: var(--pale);
   color: #333;
 }
@@ -38,6 +40,8 @@ nav a {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
 }
 
 section {
