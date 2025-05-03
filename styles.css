@@ -19,7 +19,24 @@ header {
   background-color: var(--tan);
   color: white;
   padding: 1rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+nav {
+  margin-top: 0.5rem;
 }
 
 nav a {
@@ -29,9 +46,30 @@ nav a {
 }
 
 #hero {
-  background-color: var(--mint);
+  background-image: url('images/baby-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  padding: 6rem 1rem;
   text-align: center;
-  padding: 3rem 1rem;
+  position: relative;
+}
+
+#hero::before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.7); /* soft overlay */
+  position: absolute;
+  inset: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 .btn {
